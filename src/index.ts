@@ -1,5 +1,13 @@
 import { chunk } from "./array/chunk";
 
+import {
+  random
+} from './number'
+
 export {
-  chunk
+  // Array
+  chunk,
+
+  // Number
+  random
 }
