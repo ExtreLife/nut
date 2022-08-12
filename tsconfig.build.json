@@ -4,10 +4,12 @@
     "**/*.test.*",
     "**/__mocks__/*",
     "**/__tests__/*",
+    "**/array/*",
     "*.config.*",
     "dist"
   ],
   "compilerOptions": {
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "outFile": "./dist/index.d.ts"
   }
 }

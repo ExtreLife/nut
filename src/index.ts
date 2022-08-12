@@ -1,4 +1,6 @@
-import { chunk } from "./array/chunk";
+import {
+  chunk
+} from "./array";
 
 import {
   random
